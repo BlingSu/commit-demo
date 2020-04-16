@@ -6,9 +6,9 @@
     "local": "vue-cli-service serve --mode development",
     "dev": "vue-cli-service build --mode development",
     "build": "vue-cli-service build --mode production",
-    "c": "git add . && git-cz && npm run changelog && git push",
+    "c": "git add . && git-cz && rm -rf ./CHANGELOG.md && npm run changelog && git push",
     "init": "commitizen init cz-conventional-changelog --save --save-exact",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -p",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },

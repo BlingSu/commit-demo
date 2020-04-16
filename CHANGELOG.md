@@ -4,6 +4,7 @@
 ### Bug Fixes
 
 * **1:** 23 ([7f92473](https://github.com/angelasubi/commit-demo/commit/7f924735f49e0ab6e6c70d42fc2ef6312ffe25bd))
+* **21:** 12 ([2d33841](https://github.com/angelasubi/commit-demo/commit/2d33841e8fea25f4fed704e7bd21791bec8e1f3e))
 * **修改一个问题:** 依赖引入变化 ([2d7b6ab](https://github.com/angelasubi/commit-demo/commit/2d7b6ab1496b39e2fa980d460fca6c77e813af46))
 * **docs:** docs ([399315e](https://github.com/angelasubi/commit-demo/commit/399315e783625b546a86c2c0ae1046721f82308c))
 * **docs问题:** 修改changelog ([979bcf9](https://github.com/angelasubi/commit-demo/commit/979bcf97f771a3b3a1da69a852e244998dc6ba07))
