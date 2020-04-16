@@ -1,0 +1,135 @@
+/** 常用色值 **/
+@colorA: #7f8183;
+@colorB: #282f3d;
+@colorC: #a5afbc;
+@colorD: #eeb100;
+
+/** 常用字体大小 **/
+@fontA: 14px;
+@fontB: 16px;
+@fontC: 20px;
+@fontD: 24px;
+@fontE: 36px;
+@fontF: 28px;
+@fontG: 30px;
+@fontH: 18px;
+
+// 弹窗常用宽度
+.wd600 > div {
+  width: 600px;
+}
+/** 封装各方向箭头标志 **/
+.arrow(@direction,@color) {
+  width: 12px;
+  height: 12px;
+  border: 2px solid @color;
+  display: inline-block;
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.arrow(left,@color) {
+  border-top: transparent;
+  border-right: transparent;
+}
+.arrow(right,@color) {
+  border-left: transparent;
+  border-bottom: transparent;
+}
+.arrow(top,@color) {
+  border-right: transparent;
+  border-bottom: transparent;
+}
+.arrow(bottom,@color) {
+  border-left: transparent;
+  border-top: transparent;
+}
+
+/** 通用过渡 **/
+.transitions() {
+  transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear; /* Firefox 4 */
+  -webkit-transition: all 0.3s linear; /* Safari 和 Chrome */
+  -ms-transition: all 0.3s linear; /* ie */
+  -o-transition: all 0.3s linear; /* Opera */
+}
+
+/** 小手鼠标 **/
+.pointer {
+  cursor: pointer;
+}
+.pointer:active {
+  outline: none;
+}
+// 倒三角
+.half-radius() {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-right: 35px solid transparent;
+  border-top: 31px solid transparent;
+}
+
+.txt-center {
+  text-align: center;
+}
+.txt-right {
+  text-align: right;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+// 单行省略
+.lineText-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+// 两行省略
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /*! autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+// 三行省略
+.text-overflow3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /*! autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex-around-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex_between_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex_between_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-btn{
+  margin-top: 20px;
+}

@@ -1,0 +1,66 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,p,form{margin:0}
+body,button,input,select,textarea{font:12px/1.5 sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+em,b{font-style:normal}
+a{text-decoration:none;outline: none;}
+a:hover{text-decoration:none;outline: none;}
+a:focus{text-decoration:none;outline: none;}
+a:active{text-decoration:none;outline: none;}
+img{border:0}
+button,input,select,textarea{font-size:100%;outline:none}
+table{border-collapse:collapse;border-spacing:0}
+td,th,ul,ol{padding:0;list-style:none}
+.clearfix:after{
+  content: "020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: #F2F2F2;
+}
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: black;
+}
+*{
+  box-sizing: border-box;
+}
+/*IE浏览器  定义滑块 内阴影+圆角*/
+body {
+  scrollbar-arrow-color: black;
+  scrollbar-track-color: #fff;
+  scrollbar-base-color: black;
+  scrollbar-base-color: black;
+}
+/*IE浏览器  隐藏输入框右侧提示*/
+input::-ms-clear{display:none !important;}/*隐蔽文本框叉子*/
+input::-ms-reveal{display:none !important;}/*隐蔽暗码框小眼睛*/
+input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgb(127, 129, 131);
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgb(127, 129, 131);
+}
+
+input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgb(127, 129, 131);
+}
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgb(127, 129, 131);
+}
+

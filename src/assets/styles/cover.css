@@ -1,0 +1,193 @@
+.el-button--warning{
+  width: 90px;
+  padding: 0;
+  height: 34px;
+  line-height: 34px;
+  color: white;
+  background-color: transparent;
+  border-color: #EEB100;
+  border-radius: 20px;
+}
+.el-button--warning.is-disabled{
+  color: #51575E;
+  border-color: #51575E;
+  background-color: transparent;
+}
+.el-button--warning.is-disabled:hover{
+  color: #51575E;
+  border-color: #51575E;
+  background-color: transparent;
+}
+.el-button--warning:hover, .el-button--warning:focus{
+  background-color: #EEB100;
+  border-color: #EEB100;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label{
+  color: #EEB100;
+}
+.el-checkbox__input.is-focus .el-checkbox__inner{
+  border-color: #EEB100;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+  background-color: #EEB100;
+  border-color: #EEB100;
+}
+/*******表格样式********/
+.el-table{
+  height: 100%;
+  overflow-y: auto;
+  background-color: #282F3D;
+}
+.el-table__row.hover-row{
+  background-color: #2E333F !important;
+}
+.el-table__row:nth-child(odd) {
+  background-color: rgba(0,0,0, 0.2);
+}
+.el-table__row:nth-child(even) {
+  border-bottom: 1px solid rgba(0,0,0, 0.2);
+  background-color: #282F3D;
+}
+.el-table__body-wrapper .el-table__empty-text{
+  font-size: 15px;
+}
+.el-table--border th:after,
+.el-table--border td,
+.el-table--border th,
+.el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+  border-right: none;
+  position: relative;
+}
+.el-table th, .el-table tr {
+  background-color: #f8f9fc;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  color: #111;
+  font-size: 14px;
+  background-color: black;
+}
+.el-table thead .cell:nth-child(1){
+  padding-right: 14px;
+}
+.el-table th{
+  color: #7F8183;
+  background: #282F3D !important;
+}
+.el-table--border td{
+  color:#7F8183;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255, 0.2);
+}
+.el-table__body {
+  border-collapse: separate;
+}
+
+.el-table--border,
+.el-table--group {
+  border: none
+}
+.el-table::before {
+  height: 0;
+}
+.el-table--border::after,
+.el-table--group::after {
+  width: 0
+}
+.el-table__fixed-right::before,
+.el-table__fixed::before {
+  height:0
+} 
+.el-table--border td:first-child:after,
+.el-table--border th:first-child:after,
+.el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed:after {
+  width: 0px;
+}
+
+.el-table__body tr:hover>td{
+  background-color: rgba(0,0,0, 0.2) !important;
+}
+
+.el-table__body tr.current-row>td{
+  background-color: rgba(0,0,0, 0.2) !important;
+}
+/* 分页器 */
+#pagination .el-pagination__total, #pagination .el-pagination__jump{
+  font-size: 14px;
+  color: #7F8183 !important;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active{
+  background-color: #EEB100;
+}
+.el-pagination__editor{
+  padding: 0 4px;
+}
+/* 确认弹窗样式 */
+.el-message-box{
+  width: 401px;
+  height: 268px;
+  border: none;
+  background-color: rgb(72, 75, 85);
+  /* background-color: #000000; */
+}
+.alertContent{
+  text-align: center;
+}
+.alertContent img{
+  width: 34px;
+  height: 34px;
+  margin-top: 35px;
+}
+.alertContent p{
+  position: relative;
+  left: 4px;
+  font-size: 17px;
+  color: white;
+  margin: 17px 0 25px 0;
+}
+.el-message-box__btns{
+  text-align: center;
+}
+.el-message-box__btns button{
+  margin: 0 15px;
+  width: 77px;
+}
+
+/* 表单弹窗样式 */
+.el-dialog__header{
+  text-align: center;
+}
+.el-dialog__title{
+  color: white;
+}
+.el-dialog{
+  border-radius: 5px;
+  background-color: rgb(72, 75, 85);
+}
+.dialog-footer{
+  text-align: center;
+}
+.dialog-footer button{
+  width: 95px;
+  height: 32px;
+  color: #5A5E66;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.dialog-footer .success-btn{
+  color: white;
+  background-color: #0091FF;
+}
+/* 弹窗里的表格样式 */
+.el-dialog .el-form-item__label{
+  width: 90px;
+  color: #7F8183;
+}
+.el-dialog .el-input--mini .el-input__inner{
+  background-color: transparent;
+  border: 1px solid #8B8F94;
+  border-radius: 14px;
+  color: white;
+}

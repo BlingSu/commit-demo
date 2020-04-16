@@ -1,0 +1,334 @@
+.wrap {
+  height: 100vh;
+  position: relative;
+  background: url(../images/new/login_bg.png) no-repeat;
+  background-size: cover;
+}
+.user_login {
+  position: absolute;
+  left: 18%;
+  top: 17%;
+  text-align: center;
+  width: 422px;
+  height: 540px;
+  padding-top: 48px;
+  background:rgba(255,255,255,1);
+  border-radius: 6px;
+}
+.user_login>img {
+  margin-bottom: 15px;
+  width:127px;
+  height: 127px;
+}
+.loginTitle{
+  font-size:22px;
+  font-family:SourceHanSansSC-Medium,SourceHanSansSC;
+  font-weight:500;
+  color:rgba(36,45,65,1);
+  margin-bottom: 40px;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 18px 0 20px 0;
+  font-size: 16px;
+}
+.password_class {
+  margin-top: 18px;
+  background: url(../images/new/passWord.png) no-repeat 5px 10px;
+  background-size: 16px 19px;
+}
+.password_class:focus{
+  margin-top: 18px;
+  background: url(../images/new/password_focus.png) no-repeat 5px 10px;
+  background-size: 16px 19px;
+}
+.password_img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  right: 65px;
+  bottom: 192px;
+}
+.input_container input {
+  padding-left: 32px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(217,224,231,1);
+  width: 320px;
+  height: 40px;
+}
+.inputName{
+  background: url(../images/new/userName.png) no-repeat 5px 10px;
+  background-size: 16px 19px;
+}
+.inputName:focus{
+  background: url(../images/new/userName_focus.png) no-repeat 5px 10px;
+  background-size: 16px 19px;
+}
+/* .input_code{
+  background: url(../images/new/code.png) no-repeat 5px 10px;
+  background-size: 16px 19px;
+}
+.input_code:focus{
+  background: url(../images/new/code_focus.png) no-repeat 5px 10px;
+  background-size: 16px 19px;
+} */
+.login_button_container {
+  margin-top: 20px;
+}
+.login_button_container button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 320px;
+  height: 42px;
+  line-height: 42px;
+  padding: 0;
+  background:#EEB100;
+  color: #fff;
+  font-size: 16px;
+}
+.code {
+  height: 30px;
+  position: absolute;
+  right: 105px;
+  bottom: 128px;
+}
+.code>div{
+  height: 30px;
+  width: 114px;
+  position: absolute;
+  right: -10px;
+  cursor: pointer;
+  bottom: 90px;
+  line-height: 30px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.1)
+}
+.codeImg {
+  height: 30px;
+  position: absolute;
+  right: -10px;
+  cursor: pointer;
+  bottom: 90px;
+}
+.el-button--primary:focus, .el-button--primary:hover{
+  background: #0091FF;
+}
+.el-button.is-loading:before{
+  position: static;
+}
+.user_login .el-checkbox{
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 1500px) {
+  .user_login {
+    position: absolute;
+    left: 18%;
+    top: 17%;
+    text-align: center;
+    width: 316px;
+    height: 415px;
+    padding-top: 36px;
+    background:rgba(255,255,255,1);
+    border-radius: 6px;
+  }
+  .user_login>img {
+    margin-bottom: 10px;
+    width:95px;
+    height: 95px;
+  }
+  .loginTitle{
+    font-size: 15px;
+    margin-bottom: 26px;
+  }
+  .inputName{
+    background: url(../images/new/userName.png) no-repeat 5px 8px;
+    background-size: 16px 19px;
+  }
+  .inputName:focus{
+    background: url(../images/new/userName_focus.png) no-repeat 5px 8px;
+    background-size: 16px 19px;
+  }
+  .input_container {
+    margin: 14px 0 15px 0;
+  }
+  .input_container input {
+    width: 250px;
+    height: 35px;
+  }
+  .password_img {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 8px;
+    right: 40px;
+    bottom: 148px;
+  }
+  .code>div{
+    height: 27px;
+    width: 102px;
+    position: absolute;
+    right: -45px;
+    cursor: pointer;
+    bottom: 67px;
+    line-height: 27px;
+    font-size: 12px;
+    background-color: rgba(0, 0, 0, 0.1)
+  }
+  .codeImg {
+    height: 27px;
+    position: absolute;
+    right: -45px;
+    cursor: pointer;
+    bottom: 67px;
+  }
+  .login_button_container {
+    margin-top: 16px;
+  }
+  .login_button_container button {
+    width: 250px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+    background:#EEB100;
+    color: #fff;
+    font-size: 15px;
+  }
+}
+/* 小分辨率的情况 */
+@media screen and (max-width: 1400px) {
+  .wrap {
+    height: 100vh;
+    position: relative;
+    background: url(../images/new/login_bg.png) no-repeat;
+    background-size: cover;
+  }
+  .user_login {
+    position: absolute;
+    left: 18%;
+    top: 17%;
+    text-align: center;
+    width: 300px;
+    height: 384px;
+    padding-top: 34px;
+    background:rgba(255,255,255,1);
+    border-radius: 4px;
+  }
+  .user_login>img {
+    margin-bottom: 10px;
+    width:90px;
+    height: 90px;
+  }
+  .loginTitle{
+    font-size: 14px;
+    margin-bottom: 23px;
+  }
+  .input_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 14px 0 15px 0;
+    font-size: 14px;
+  }
+  .password_class {
+    margin-top: 14px;
+    background: url(../images/new/passWord.png) no-repeat 5px 8px;
+    background-size: 12px 15px;
+  }
+  .password_class:focus{
+    margin-top: 14px;
+    background: url(../images/new/password_focus.png) no-repeat 5px 8px;
+    background-size: 12px 15px;
+  }
+  .password_img {
+    cursor: pointer;
+    position: absolute;
+    width: 15px;
+    height: 8px;
+    right: 40px;
+    bottom: 137px;
+  }
+  .input_container input {
+    padding-left: 25px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(217,224,231,1);
+    width: 248px;
+    height: 31px;
+  }
+  .inputName{
+    background: url(../images/new/userName.png) no-repeat 5px 8px;
+    background-size: 12px 15px;
+  }
+  .inputName:focus{
+    background: url(../images/new/userName_focus.png) no-repeat 5px 8px;
+    background-size: 12px 15px;
+  }
+  /* .input_code{
+    background: url(../images/new/code.png) no-repeat 5px 8px;
+    background-size: 12px 15px;
+  }
+  .input_code:focus{
+    background: url(../images/new/code_focus.png) no-repeat 5px 8px;
+    background-size: 12px 15px;
+  } */
+  .login_button_container {
+    margin-top: 15px;
+  }
+  .login_button_container button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 248px;
+    height: 31px;
+    line-height: 31px;
+    padding: 0;
+    background:#EEB100;
+    color: #fff;
+    font-size: 14px;
+  }
+  .code {
+    height: 30px;
+    position: absolute;
+    right: 105px;
+    bottom: 128px;
+  }
+  .code>div{
+    height: 23px;
+    line-height: 23px;
+    width: 87px;
+    font-size: 12px;
+    position: absolute;
+    right: -45px;
+    cursor: pointer;
+    bottom: 22px;
+    background-color: rgba(0, 0, 0, 0.1)
+  }
+  .codeImg {
+    height: 23px;
+    position: absolute;
+    right: -45px;
+    cursor: pointer;
+    bottom: 22px;
+  }
+  .el-button--primary:focus, .el-button--primary:hover{
+    background: #0091FF;
+  }
+  .el-button.is-loading:before{
+    position: static;
+  }
+  .user_login .el-checkbox{
+    padding: 3px 0;
+  }
+  .user_login .is-checked{
+    color: #EEB100;
+  }
+}
