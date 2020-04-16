@@ -11,6 +11,7 @@
 
 ### Features
 
+* **123:** 123 ([cec27f9](https://github.com/angelasubi/commit-demo/commit/cec27f9c5d3863a109c9981fec29e9c5656826ec))
 * **测试:** 哈哈哈 ([33aab95](https://github.com/angelasubi/commit-demo/commit/33aab95b024fb627e1a4bbd758b5ac8ee9d1bd08))
 * **添加依赖:** 配置项 ([a669393](https://github.com/angelasubi/commit-demo/commit/a6693938e1e1318d2da2e357ed0da706270e6840))
 * **add script:** changlog ([5f9df23](https://github.com/angelasubi/commit-demo/commit/5f9df23d987683b3b0ee505eb262bf935bc84a0e))
