@@ -8,7 +8,7 @@
     "build": "vue-cli-service build --mode production",
     "c": "git add . && git-cz && npm run changelog",
     "init": "commitizen init cz-conventional-changelog --save --save-exact",
-    "changelog": "conventional-changelog --config node_modules/cz-conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
