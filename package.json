@@ -23,7 +23,7 @@
     "hls.js": "^0.13.2",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
-    "qs": "^6.9.3",
+    "qs": "^6.9.7",
     "save-dev": "0.0.1-security",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^2.6.11",
